@@ -1,0 +1,1 @@
+Curso de DESENVOLVIMENTO full stack, onde vou adquirir habilidades não somente voltadas as HARDSKILLS, quanto a SOFTSKILLS, visando formar um profissional completo e pronto para o mercado de trabalho!
