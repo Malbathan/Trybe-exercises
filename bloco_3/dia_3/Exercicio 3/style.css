@@ -5,10 +5,16 @@
     
     li:hover {
         background-color: cadetblue;
+        padding: 5px;
+        height: 10%;
+        width: 20%;
+        border-radius: 5%;
+        max-height: none;
 }
     li:active {
         font-family: fantasy;
         color: darkcyan;
+
     }
     li{
         font-family: monospace;
