@@ -1,0 +1,15 @@
+    p, h1 {
+        text-align: center;
+        font-family: monospace;
+}
+    
+    li:hover {
+        background-color: cadetblue;
+}
+    li:active {
+        font-family: fantasy;
+        color: darkcyan;
+    }
+    li{
+        font-family: monospace;
+        list-style: none;
