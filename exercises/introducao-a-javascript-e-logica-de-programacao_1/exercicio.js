@@ -1,5 +1,5 @@
-let a = 2;
-let b = 5;
+// let a = 2;
+// let b = 5;
 
 // console.log (a + b);
 // console.log (a - b);
@@ -25,21 +25,31 @@ let b = 5;
 
 // * Problema resolvido graças ao codigo de exemplo da Fernanda Porto - Turma 10 - Tribo B-
 
-let number = 0;
+// let number = 0;
 
-switch (true) {
-    case (number>0):
-    console.log ("positive");
-    break;
+// switch (true) {
+//     case (number>0):
+//     console.log ("positive");
+//     break;
 
-    case (number<0):
-    console.log ("negative");
-    break;
+//     case (number<0):
+//     console.log ("negative");
+//     break;
 
-    case (number==0):
-    console.log ("zero");
-    break;
+//     case (number==0):
+//     console.log ("zero");
+//     break;
 
-    default:
-    console.log ("Erro");
+//     default:
+//     console.log ("Erro");
+// }
+
+let anguloA = 90;
+let anguloB = 45;
+let anguloC = 45;
+
+if (anguloA + anguloB + anguloC == 180) {
+    console.log( "true")
+} else {
+    console.log ("false")
 }
