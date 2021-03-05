@@ -110,6 +110,17 @@
         list.appendChild(items);
       }
       
+      // Exercicio 09
+      for(let index = 0; index < 3; index += 1) {
+        let titleH3 = document.createElement("h3");
+        titleH3.innerHTML = "Titulo H3";
+        if (index == 1) {
+          titleH3.innerHTML = "Titulo 02 H3";
+        } if (index == 2) {
+          titleH3.innerHTML = "Titulo 03 H3";
+        }
+        divMom.appendChild(titleH3);
+      }
 
     
     </script>
