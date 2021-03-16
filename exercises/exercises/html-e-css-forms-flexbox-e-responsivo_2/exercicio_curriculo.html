@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <fieldset>
+    <div>
+      <label for="name">Nome :        
+        <input type="text" name="name" id="texto" maxlength="40" required>
+      </label>
+      <label for="email">E-mail :
+        <input type="email" name="email" id="email" maxlength="50" required>
+      </label>
+      <label for="cpf">CPF :
+        <input type="text" name="cpf" id="cpf" maxlength="11" required> 
+      </label>
+      <label for="end">Endereço :
+        <input type="text" name="address" id="address"maxlength="200" required>
+      </label>
+      <label for="city">Cidade :
+        <input type="text" name="city" id="city" maxlength="28" required>
+      </label>
+      <label for="estado">Estado :
+        <select name="estado" id="input-estado" required></select>
+      </label>
+      <label for="house" required>
+        <input type="radio" name="type-home" id="house"> Casa
+      </label>
+      <label for="ap" >
+        <input type="radio" name="type-home" id="ap"> Apartamento
+      </label>
+    </div>
+  </fieldset>
+<script src="script.js"></script>  
+</body>
+</html>
