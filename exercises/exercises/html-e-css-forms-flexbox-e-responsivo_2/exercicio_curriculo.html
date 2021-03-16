@@ -6,52 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <fieldset>
-    <div class="form-row">
-      <div class="form-group">
-        <label for="name">Nome : >       
+  <section>
+    <div class="form-group row">
+      <div class="form-group col-md-6">
+        <label for="name">Nome :      
           <input type="text" name="name" id="texto" class="form-control" maxlength="40" required>
         </label>
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-6">
         <label for="email">E-mail : 
           <input type="email" name="email" id="email" class="form-control" maxlength="50" required>
         </label>
       </div>
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <label for="cpf">CPF : 
           <input type="text" name="cpf" id="cpf" class="form-control" maxlength="11" required> 
         </label>
       </div>
-      <div class="form-group">
-        <label for="end">Endereço : 
-          <input type="text" name="address" id="address" class="form-control" maxlength="200" required>
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="city">Cidade : 
-          <input type="text" name="city" id="city" class="form-control" maxlength="28" required>
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="estado">Estado : 
-          <select name="estado" id="input-estado" required></select>
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="house" required >
-          <input type="radio" name="type-home" id="house"> Casa
-        </label>
-      </div>
-      <div class="form-group">
-        <label for="ap" >
-          <input type="radio" name="type-home" id="ap"> Apartamento
-        </label>
-      </div>
-    </div>
-  </fieldset>
+    </div>  
+        <div class="form-group col-md-6">
+          <label for="end">Endereço : 
+            <input type="text" name="address" id="address" class="form-control" maxlength="200" required>
+          </label>
+        </div>
+          <div class="form-group row">
+            <div class="form-group col-md-6">
+              <label for="city">Cidade : 
+                <input type="text" name="city" class="form-control" id="city" class="form-control" maxlength="28" required>
+              </label>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="estado">Estado : 
+                  <select name="estado" id="input-estado" class="form-control" required></select>
+                </label>
+            </div>
+          </div>
+          <div class="form-group">
+              <label for="house" required >
+                <input type="radio" name="type-home" id="house"> Casa
+              </label>
+          </div>
+          <div class="form-group">
+              <label for="ap" >
+                <input type="radio" name="type-home" id="ap"> Apartamento
+              </label>
+          </div>
+  </section>
 <script src="script.js"></script>  
 </body>
 </html>

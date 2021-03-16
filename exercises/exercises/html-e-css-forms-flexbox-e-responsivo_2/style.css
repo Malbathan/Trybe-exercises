@@ -1,16 +1,5 @@
-* {
-	margin: 0;
-}
-
-fieldset{
-	text-align: center;
-}
-
-label {
-	font-family: monospace;
-	display: block;
-}
-
-input {
-	margin: 1px;
+body {
+	max-width: 800px;
+	width: 50%;
+	margin: auto;
 }
