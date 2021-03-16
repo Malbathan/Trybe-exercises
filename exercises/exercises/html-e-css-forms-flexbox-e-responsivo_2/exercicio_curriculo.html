@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-  <fieldset>
+  <fieldset class="form-group">
     <div>
-      <label for="name">Nome :        
-        <input type="text" name="name" id="texto" maxlength="40" required>
+      <label for="name">Nome : >       
+        <input type="text" name="name" id="texto" class="form-control" maxlength="40" required>
       </label>
-      <label for="email">E-mail :
-        <input type="email" name="email" id="email" maxlength="50" required>
+      <hr>
+      <label for="email">E-mail : 
+        <input type="email" name="email" id="email" class="form-control" maxlength="50" required>
       </label>
-      <label for="cpf">CPF :
-        <input type="text" name="cpf" id="cpf" maxlength="11" required> 
+      <hr>
+      <label for="cpf">CPF : 
+        <input type="text" name="cpf" id="cpf" class="form-control" maxlength="11" required> 
       </label>
-      <label for="end">Endereço :
-        <input type="text" name="address" id="address"maxlength="200" required>
+      <label for="end">Endereço : 
+        <input type="text" name="address" id="address" class="form-control" maxlength="200" required>
       </label>
-      <label for="city">Cidade :
-        <input type="text" name="city" id="city" maxlength="28" required>
+      <hr>
+      <label for="city">Cidade : 
+        <input type="text" name="city" id="city" class="form-control" maxlength="28" required>
       </label>
-      <label for="estado">Estado :
+      <label for="estado">Estado : 
         <select name="estado" id="input-estado" required></select>
       </label>
-      <label for="house" required>
+      <label for="house" required >
         <input type="radio" name="type-home" id="house"> Casa
       </label>
       <label for="ap" >
