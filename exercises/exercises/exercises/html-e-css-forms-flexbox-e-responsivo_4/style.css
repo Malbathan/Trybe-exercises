@@ -18,12 +18,12 @@
     display: flex;
     justify-content: center;
     flex-grow: 268px;
+    order: -1;
   }
   
   .menu-container {
     display: flex;
     flex-grow: 500px;
-    order: -1;
   }
   
   .menu-container ul {
