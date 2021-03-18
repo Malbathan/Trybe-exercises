@@ -23,6 +23,7 @@
   .menu-container {
     display: flex;
     flex-grow: 500px;
+    order: -1;
   }
   
   .menu-container ul {
