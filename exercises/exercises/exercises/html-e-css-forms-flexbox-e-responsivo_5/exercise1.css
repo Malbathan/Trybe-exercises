@@ -5,7 +5,7 @@ h1 {
    font-size: 1.2em; 
 }
 h2 {
-
+    font-size: 1.1em;
 }
 
 img {
@@ -14,4 +14,5 @@ img {
 
 figure {
     margin: 0;
+    padding: 10px;
 }
